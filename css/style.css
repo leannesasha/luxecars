@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: all 0.2s linear;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html{
+    overflow-x: hidden;
+    scroll-padding-top: 7em;
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+
+}
+body{
+    position: absolute;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 8%;
+    height: 50px;
+    box-shadow: 0 0 10px black;
+
+}
+header .logo{
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
+}
+header .logo span{
+    color: black;
+}
+header .menu {
+    display: flex;
+    flex-direction: row;
+}
+header .menu li{
+    list-style: none;
+    margin: 0 15px;
+
+}
+header .menu li a{
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    transition: 0.2s;
+}
+header .menu li a:hover{
+    color: red;
+}
+header button {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 5px 25px;
+    font-weight: 500;
+    border-radius: 10px;
+
+}
+section .content span {
+    color: red;
+}
+section .btn-1{
+    padding: 5px 20px;
+    background-color: red;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    transition: 0.3s ease;
+    cursor: pointer;
+    margin: 20px 10px;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.img{
+
+    width: 50%;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+img{
+    width:100% ;
+
+}
+.content{
+    width: 50%;
+    padding: 200px 50px;
+    font-size: 2rem;
+    
+}
+content .p{
+    color: rgb(196, 185, 185);
+}
+.live{
+     display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 30px;
+   
+    
+}
+.live h4 {
+    color: red;
+}
+.live button{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 5px 25px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+.titre {
+   text-transform: uppercase;
+   position: relative;
+   font-size: 20px;
+   text-align: center;
+   margin: 60px;
+
+
+}
+.titre::before{
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    content: '';
+    background-color: red;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px; 
+    width:400px;
+    margin-left: 400px;
+   
+}
+.titre::after{
+    position: absolute;
+    left: -10px;
+    top: 0;
+    content: '';
+    background-color: red;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    width:400px; 
+    margin-left: 300px;
+    
+}
+.cadre span{
+    background-color: red;
+    border-radius:30px ;
+    padding: 20px 20px 20px 20px;
+    
+    
+}
+.cadre h1{
+    color: black;
+    margin: 20px 20px 20px 20px;
+}
+.cadre p{
+    color: rgb(97, 89, 89);
+}
+.cadre button{
+    background-color:white;
+    color: red;
+    cursor: pointer;
+    padding: 5px 25px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 1px solid red;
+}
+.card{
+    padding: 60px 5px 5px 10px;
+    width: 70%;
+    height: auto;
+    box-shadow: 2px 2px 8px rgb(253, 236, 236);
+     background-color: white;
+}
+.cadre{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+   
+     
+}
+.contener h2{
+    text-align: center;
+     margin-bottom: 30px;
+
+}
+.contener img{
+    width: 50%;
+    height: auto;
+}
+.container5 section{
+    padding: 5px;
+    padding-top: 1px; 
+    background:white; 
+    box-shadow: 4px 4px 12px rgb(red, green, blue);
+    margin-left: 3%;
+
+}
+.container5 h2{
+     margin-bottom: 30px;
+     margin-top: 50px;
+}
+.contener form{
+    max-width: 600px;
+    margin:auto;
+}
+.container5 div{
+    margin-top: 15px;
+}
+.container input{
+    width: 100%;
+    padding: 12px;
+     border: 1px solid #161414;
+     border-radius: 8px;
+     background:white;
+     width: 500px;
+                
+
+}
+.container button{
+    padding: 10px ; 
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.container5{
+    box-shadow: 2px 2px 8px rgb(23, 20, 20);
+    width: 600px;
+     display: block;
+    margin:  auto;
+}
+.contener{
+     box-shadow: 2px 2px 8px rgb(23, 20, 20);
+    width: 600px;
+    display: block;
+    margin:  auto;
+
+    
+
+}
+
+.info img {
+    transition: transform 0.5s;
+}
+.info img:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+
+
